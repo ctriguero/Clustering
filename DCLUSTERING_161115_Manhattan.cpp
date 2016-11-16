@@ -53,7 +53,7 @@ for (i=0; i<Files_2_Read; i++)
 		        
 		if ( File_Counter <= 9 )
 			{
-				ss << "FILE_000" << File_Counter << "_dis.s";
+				ss << "FILE_000" << File_Counter << ".s";
 				cout << "Openning file: "<< ss.str().c_str() << endl ;
 				
 				input_file.open(ss.str().c_str(), ios::in ) ;
